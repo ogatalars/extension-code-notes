@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e; /* VS Code dark background */
+  color: #d4d4d4; /* VS Code text color */
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+textarea {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: monospace;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e; /* VS Code editor background */
+  color: #d4d4d4; /* VS Code editor text color */
+}

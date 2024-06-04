@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Note Editor",
+    "version": "1.0",
+    "description": "A Chrome extension that mimics a code editor and saves content to local storage.",
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Open the editor"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
+  
